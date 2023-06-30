@@ -22,6 +22,7 @@ footer { font-family: "Raleway", sans-serif;
 }
 
 button { cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
 
 .list {list-style: none;}
@@ -62,7 +63,7 @@ color: #2E2F42;
 }
 
 .address {
-    font-style: normal;
+font-style: normal;
 }
 
 .address-list {
@@ -169,7 +170,7 @@ color: #2E2F42;
 .section {
 }
 .team {
-    background: #F4F4FD;
+background: #F4F4FD;
 }
 .team-title {
 font-weight: 700;
@@ -204,7 +205,7 @@ color: #434455;
 }
 
 .footer {
-    background: #2E2F42;
+background-color: #2E2F42;
 }
 .footer-logo {
 font-family: "Raleway", sans-serif;
@@ -243,16 +244,13 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--button-color);
 background-color: var(--background-color-button);
-border: 1px solid #E7E9FC;
 }
-.filter-button-all:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
+.filter-button-all:hover,
 .filter-button-all:focus {
     color: #FFFFFF;
     background-color: #404BBF;
-}
+} 
+
 .filter-button {
 font-weight: 500;
 font-size: 16px;
@@ -260,12 +258,8 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--button-color);
 background-color: var(--background-color-button);
-border: 1px solid #E7E9FC;
 }
-.filter-button:hover {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
+.filter-button:hover,
 .filter-button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
@@ -277,7 +271,6 @@ border: 1px solid #E7E9FC;
 }
 .projects-list-item {
 background: #FFFFFF;
-border: 1px solid #E7E9FC;
 }
 .projects-list-img {
 }
